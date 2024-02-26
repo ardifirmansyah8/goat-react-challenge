@@ -3,16 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react": "^18.0",
+    "react-dom": "^18.0",
+    "react-icons": "^5.0.1",
+    "react-scripts": "latest",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "REACT_APP_DEV_DISABLE_ESLINT=true react-scripts start",
+    "start": "cross-env DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -45,7 +43,11 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/react-hooks": "latest",
+    "@testing-library/user-event": "latest",
+    "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -54,9 +56,9 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "fetch-mock": "^9.11.0",
+    "fetch-mock": "latest",
     "json-server": "^0.17.0",
     "node-fetch": "^3.1.0",
-    "prettier": "^2.4.1"
+    "prettier": "^3.2.5"
   }
 }

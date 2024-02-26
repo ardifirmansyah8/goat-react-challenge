@@ -1,0 +1,25 @@
+.form-form-container {
+    margin-top: 32px;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.form-container input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    flex: 1;
+}
+
+.form-container button {
+    padding: 12px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
